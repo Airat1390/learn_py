@@ -61,6 +61,10 @@ def get_list(input_list=None):
     return input_list
 
 
+def get_arr(arr):
+    arr = []
+    return arr
+
 empty_list = []
 res = get_list()
 print("empty list == res?", empty_list == res)
